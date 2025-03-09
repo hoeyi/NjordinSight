@@ -22,6 +22,8 @@ services:
       - OZYM_APP_PASSWORD=Ogj5ii8Scf6D6sCI
       - DOCKER_DATABASE_SERVICE=ozymdb
       - DOCKER_API_SERVICE=ozymapi 
+      - SUPERUSER_NAME=SU
+      - SUPERUSER_PASSWORD=ChangeThisPassword^1234
     ports:
       - "80"
       - "443"
